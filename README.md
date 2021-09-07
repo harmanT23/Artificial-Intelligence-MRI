@@ -2,10 +2,10 @@
 This project was done as part of a 4th year capstone project at the University of Toronto to reduce time and space demands of MRI scans.
 We designed a system using U-Nets and kMeans to optimally select a subset of k-space points from a MRI scan that yields a high quality image.
 Our system utilizes a custom masking technique and a modified version of Facebook’s fastMRI U-Net to quickly reconstruct a MRI image from a subset of k-space points.
-
 The system overall is able to achieve Structural Similarity Index Metric scores exceeding 75% between the ground truth and the reconstructed MRI image.
 
-
+## Usage
+In order to use or build upon the existing code, the custom filtering technique is provided in KSpaceReductionModel.ipynb, you will need a set of MRI scans and the Facebook's fastMRI, both of which are available [here](https://fastmri.org/).
 
 ## Context
 Current Medical Resonance Imaging (MRI) reconstruction procedure is
