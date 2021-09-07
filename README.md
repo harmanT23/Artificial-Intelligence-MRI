@@ -1,7 +1,8 @@
 # Artificial Intelligence in Medical Imaging
-As part of a 4th year capstone project at the University of Toronto. We designed a system using U-Nets and kMeans to optimally select a set of k-space points from a MRI scan that yields a high quality image.
-Our system utilizes a custom masking technique and modified Facebook’s fastMRI U-Net to utilize this masking feature to achieve Structural Similarity Index Metric scores exceeding 75% between the ground truth image
-and the reconstructed MRI.
+This project was done as part of a 4th year capstone project at the University of Toronto to reduce time and space demands of MRI scans.
+We designed a system using U-Nets and kMeans to optimally select a subset of k-space points from a MRI scan that yields a high quality image.
+Our system utilizes a custom masking technique and a modified version of Facebook’s fastMRI U-Net to quickly reconstruct a MRI image from a subset of k-space points.
+The system overall is able to achieve Structural Similarity Index Metric scores exceeding 75% between the ground truth and the reconstructed MRI image.
 
 ## Context
 Current Medical Resonance Imaging (MRI) reconstruction procedure is
