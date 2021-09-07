@@ -36,5 +36,5 @@ AI algorithms
 - Fulfilled all project requirements, while maintaining flexibility
 through tunable parameters 
 
-![Alt text](Artificial-Intelligence-MRI/images/System.png?raw=true "System Diagram")
+![Alt text](images/System.png?raw=true "System Diagram")
 
