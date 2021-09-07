@@ -2,9 +2,9 @@
 This project was done as part of a 4th year capstone project at the University of Toronto to reduce time and space demands of MRI scans.
 We designed a system using U-Nets and kMeans to optimally select a subset of k-space points from a MRI scan that yields a high quality image.
 Our system utilizes a custom masking technique and a modified version of Facebook’s fastMRI U-Net to quickly reconstruct a MRI image from a subset of k-space points.
-![Alt text](images/MaskingVsResult.png?raw=true "Masking Example")
+
 The system overall is able to achieve Structural Similarity Index Metric scores exceeding 75% between the ground truth and the reconstructed MRI image.
-![Alt text](images/gndVSout.png?raw=true "Ground Truth vs Output")
+
 
 
 ## Context
@@ -39,3 +39,6 @@ Results and Conclusion
 AI algorithms
 - Fulfilled all project requirements, while maintaining flexibility
 through tunable parameters 
+
+![Alt text](images/gndVSout.png?raw=true "Ground Truth vs Output")
+![Alt text](images/MaskingVsResult.png?raw=true "Masking Example")
