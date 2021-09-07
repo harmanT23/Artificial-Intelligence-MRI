@@ -35,3 +35,6 @@ Results and Conclusion
 AI algorithms
 - Fulfilled all project requirements, while maintaining flexibility
 through tunable parameters 
+
+![Alt text](Artificial-Intelligence-MRI/images/system.png?raw=true "System Diagram")
+
