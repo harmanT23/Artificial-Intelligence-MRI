@@ -32,8 +32,7 @@ quantifying similarity
 5. For our experiment, we calculated the mean SSIM of the 1050 images
 that were obtained from the U-Net. Our final SSIM score was 0.80285.
 
-## Results & Conclusion
-Results and Conclusion
+## Results and Conclusion
 - Achieved final SSIM of 80.285%, beating our target of 75%
 - Confirmed hypothesis of patterns in k-space, obtainable via
 AI algorithms
